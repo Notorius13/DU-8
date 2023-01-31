@@ -2,6 +2,7 @@ html {
   font-size: 100%;
   box-sizing: border-box;
 }
+
 body {
   font-size: clamp(1rem, 6vw, 2.5rem);
   color: #222;
@@ -9,6 +10,7 @@ body {
   font-family: "Source Serif Pro", serif;
   background-color: #fff;
 }
+
 img {
   max-width: 100%;
   height: auto;
@@ -20,25 +22,31 @@ img {
   max-width: 1120px;
   margin: 0 auto;
 }
+
 .foto {
   font-size: 0;
 }
+
 .logo {
   text-align: center;
 }
+
 nav {
   text-align: center;
   padding-bottom: 1.4rem;
 }
+
 ul {
   display: grid;
   margin: 0;
   padding-left: 0;
 }
+
 li {
   display: inline-block;
   margin: 0.4rem 0rem;
 }
+
 li a {
   text-decoration: none;
   padding: 0.4rem 1rem;
@@ -46,39 +54,47 @@ li a {
   color: #009cff;
   transition: 0.5s all;
 }
+
 li a:hover,
 li a:active {
   background-color: #009cff;
   border-radius: 5px;
   color: #fff;
 }
+
 .post-header {
   background-color: #efe6f7;
 }
+
 /* Main */
 main {
   background-color: #fff;
 }
+
 h1,
 p {
   padding: 0 1rem;
 }
+
 h1 {
   margin-top: 1rem;
   padding-top: 1rem;
   text-align: center;
   font-size: clamp(1.6rem, 6vw, 2.5rem);
 }
+
 p {
   margin-bottom: 3rem;
   text-align: center;
   font-size: clamp(1rem, 6vw, 1.5rem);
 }
+
 .btn {
   text-align: center;
   margin-bottom: 2rem;
   margin-top: 1rem;
 }
+
 .btn a {
   background-color: #009cff;
   color: #fff;
@@ -88,23 +104,28 @@ p {
   font-size: clamp(1rem, 4vw, 1.5rem);
   transition: 0.5s all;
 }
+
 .btn a:hover,
 .btn a:active {
   background-color: #efe6f7;
   color: #009cff;
   border: 1px solid #009cff;
 }
+
 aside {
   background-color: #fff;
 }
+
 aside img {
   width: 1120px;
   height: auto;
 }
+
 .gallery a {
   font-size: 0;
   text-indent: -9999999px;
 }
+
 aside p {
   background-color: #fff;
   font-size: clamp(0.5rem, 3vw, 1.5rem);
@@ -112,29 +133,35 @@ aside p {
   padding: 0;
   text-align: left;
 }
+
 section {
   padding-bottom: 3rem;
   border-bottom: 0.5px solid #d6cad6;
   border-top: 0.5px solid #d6cad6;
 }
+
 .gallery {
   border: 5px solid #fff;
   -webkit-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 1);
   -moz-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 1);
   box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.35);
 }
+
 .text {
   background-color: #efe6f7;
 }
+
 .text p {
   background-color: #efe6f7;
   padding: 0 0.5rem;
   text-align: center;
   font-size: clamp(1rem, 6vw, 1.5rem);
 }
+
 figcaption {
   background-color: #fff;
 }
+
 /* Content */
 
 .content {
@@ -146,11 +173,13 @@ h2 {
   font-weight: 400;
   margin-bottom: 1rem;
 }
+
 footer {
   color: #fff;
   text-align: center;
   background-color: #313131;
 }
+
 footer p {
   margin: 0;
   padding: 0;
@@ -158,6 +187,7 @@ footer p {
   padding-bottom: 1rem;
   color: #73737b;
 }
+
 footer h3 {
   color: #848c8c;
   font-size: 1rem;
@@ -166,9 +196,15 @@ footer h3 {
   padding-top: 1rem;
   margin-bottom: 0.5rem;
 }
+
 span {
   text-decoration: underline;
 }
+
+footer {
+  display: grid;
+}
+
 /* media */
 @media screen and (min-width: 500px) {
   ul {
@@ -186,36 +222,45 @@ span {
     padding-left: 0;
     justify-content: flex-start;
   }
+
   li a {
     font-size: clamp(0.4rem, 1.5vw, 1.5rem);
   }
+
   nav {
     margin-top: 0.9rem;
     vertical-align: middle;
   }
+
   .foto img {
     margin-top: 0.9rem;
     vertical-align: middle;
   }
+
   .foto {
     align-items: flex-start;
   }
+
   ul {
     white-space: nowrap;
   }
+
   li {
     margin: 0.4rem 1.8rem;
   }
+
   section {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
   .text {
     background-color: #efe6f7;
     border: none;
     box-shadow: none;
     margin-top: 35px;
   }
+
   .text p {
     background-color: #efe6f7;
     text-align: left;
@@ -224,10 +269,12 @@ span {
     padding-left: 0.7rem;
     font-size: clamp(0.5rem, 3vw, 1.2rem);
   }
+
   aside {
     height: 16rem;
     margin-top: 4rem;
   }
+
   h1 {
     margin-top: 1rem;
     padding-top: 1rem;
@@ -235,14 +282,17 @@ span {
     padding-left: 0.7rem;
     font-size: clamp(1.6rem, 6vw, 2rem);
   }
+
   .btn {
     text-align: left;
     margin: 1rem 0;
     padding-left: 0.7rem;
   }
+
   .gallery {
     background-color: #fff;
   }
+
   .gallery figcaption {
     background-color: #fff;
     font-size: clamp(0.5rem, 3vw, 1rem);
@@ -255,22 +305,27 @@ span {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1.5rem;
   }
+
   h2 {
     font-weight: 400;
     margin-bottom: 10px;
     text-align: left;
     font-size: 2.5rem;
   }
+
   article p {
     text-align: left;
     padding-left: 0;
   }
+
   .box {
     padding-left: 1rem;
   }
+
   .box1 {
     padding: 0 0.5rem;
   }
+
   .box2 {
     padding-right: 1rem;
   }
