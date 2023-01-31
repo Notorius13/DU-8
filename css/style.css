@@ -201,9 +201,6 @@ span {
   text-decoration: underline;
 }
 
-footer {
-  display: grid;
-}
 
 /* media */
 @media screen and (min-width: 500px) {
@@ -328,5 +325,18 @@ footer {
 
   .box2 {
     padding-right: 1rem;
+  }
+
+
+
+  .post-footer {
+    position: absolute;
+    bottom: -31.25rem;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    color: #fff;
   }
 }
